@@ -1,3 +1,5 @@
+#ifndef RCT_NEW_ARCH_ENABLED
+
 #import <RNReanimated/REAEventDispatcher.h>
 #import <RNReanimated/REAModule.h>
 #import <React/RCTBridge+Private.h>
@@ -24,3 +26,5 @@
 }
 
 @end
+
+#endif // RCT_NEW_ARCH_ENABLED
